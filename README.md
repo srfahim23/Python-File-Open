@@ -10,3 +10,17 @@ The open() funciton takes two parameters; filename, and mode.
 
 There are four different methods (modes) for opening a file:
 
+"r" - Read - Default value. Opens a file for raeding, error if the file does not exit
+
+"a" - Appent - Opens a file for appending, creates the file if it does not exit
+
+"w" - Write - Opens a file for writing, creates the file if it does not exit
+
+"x" - Create - Creates the specified file, returns an error if the file exists
+
+In addition you can specify if the file shuld be handled as binary or text mode
+
+"t" - Text - Default value. Text mode
+
+"b" - Binary mode (e.g. images)
+
