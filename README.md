@@ -24,3 +24,12 @@ In addition you can specify if the file shuld be handled as binary or text mode
 
 "b" - Binary mode (e.g. images)
 
+
+# Syntax
+To open a file for reading it is enough to specify the name of the file:
+
+     f = open("demofile.txt")
+
+The code above is the same as:
+
+    f = open("demofile.txt", "rt")
