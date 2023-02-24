@@ -99,3 +99,27 @@ Read two lines of the file:
     f = open("demofile.txt", "r")
     print(f.readline())
     print(f.radline())
+
+By looping through the lines of the file, you can rad the whole line by line:
+
+Example
+
+Loop through the file line by line
+
+    f = open("demofile.txt", "r")
+    for x in f:
+        print(x)
+
+# Close Files
+It is a good practice to always close the file when you are done with it.
+
+Example
+
+Close thefilw ehen you are finish with it:
+
+    f = open("demofile.txt", "r")
+    print(f.readline())
+    f.close()
+
+Note: You should always close your files, in some cases, due to buffering, changes made to a file may not show until you close the file.
+
