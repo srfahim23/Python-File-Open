@@ -33,3 +33,17 @@ To open a file for reading it is enough to specify the name of the file:
 The code above is the same as:
 
     f = open("demofile.txt", "rt")
+
+Because "r" for read, and "t" for text are the default values, you do not need to specify them.
+
+Note: Make sure the file exitst or else you will get an error.
+
+# Python File Open
+# Open a File on the Server
+Assume we have the following file, located in the same folder as Python:
+
+demofile.txt
+
+    Hello! Welcome to demofile.txt
+    This file is for testing purposes.
+    Good Luck!
