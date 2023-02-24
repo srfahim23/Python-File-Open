@@ -1,2 +1,2 @@
 # Python-File-Open
-I am just writing for testin purpose
+File handling is an important part of any web application.
