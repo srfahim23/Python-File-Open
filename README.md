@@ -67,3 +67,14 @@ Open a file on a different location:
 
     f = open("D:\\myfiles\welcome.txt", "r") 
     print(f.read())
+
+
+# Read Onl Parts of the File
+By default the read() method returns the whole text, but you can also specify how many charecters you want to return:
+
+Example
+
+Returns the 5 first charecters of the file:
+
+    f = open("demofile.txt", "r")
+    print(f.read(5))
