@@ -78,3 +78,24 @@ Returns the 5 first charecters of the file:
 
     f = open("demofile.txt", "r")
     print(f.read(5))
+
+
+# Read Lines
+You can return one line by using the readline() method:
+
+Example 
+
+Read one line of the file:
+
+    f = open("demofile.txt", "r")
+    print(f.readline())
+
+By calling readline() two times, you can read the two frst lines:
+
+Example
+
+Read two lines of the file:
+
+    f = open("demofile.txt", "r")
+    print(f.readline())
+    print(f.radline())
